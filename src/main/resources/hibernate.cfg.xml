@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.password">abc123..</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/safetravelsdb</property>
+  <property name="hibernate.connection.username">admin</property>
+  <property name="hibernate.default_schema">safetravelsdb</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.format_sql">true</property>
+  <property name="hibernate.hbm2ddl.auto">create</property>
+  <mapping class="model.User"/>
+  <mapping class="model.Hotel"/>
+  <mapping class="model.Role"/>
+  <mapping class="model.Room"/>
+  <mapping class="model.Booking"/>
+ </session-factory>
+</hibernate-configuration>

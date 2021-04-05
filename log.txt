@@ -1,0 +1,28 @@
+2021-04-05 10:33:04.900  INFO 7624 --- [main] a.w.s.SafetravelsV1Application           : Starting SafetravelsV1Application using Java 15.0.1 on DESKTOP-0BBFEKS with PID 7624 (C:\Users\monic\Documents\workspaceHibernateTest\safetravels_v1\target\classes started by monic in C:\Users\monic\Documents\workspaceHibernateTest\safetravels_v1)
+2021-04-05 10:33:04.901  INFO 7624 --- [main] a.w.s.SafetravelsV1Application           : No active profile set, falling back to default profiles: default
+2021-04-05 10:33:05.330  INFO 7624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-05 10:33:05.340  INFO 7624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2021-04-05 10:33:05.467  INFO 7624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [org.springframework.jdbc.datasource.DriverManagerDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-05 10:33:05.520  INFO 7624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: safetravels]
+2021-04-05 10:33:05.561  INFO 7624 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-05 10:33:05.671  INFO 7624 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-05 10:33:06.069  INFO 7624 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-05 10:33:06.242  INFO 7624 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-05 10:33:06.249  INFO 7624 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'safetravels'
+2021-04-05 10:33:06.252  INFO 7624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactory' of type [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-05 10:33:06.253  INFO 7624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'DBConf' of type [app.web.safetravels.DBConf$$EnhancerBySpringCGLIB$$4e904833] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-05 10:33:06.528  INFO 7624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-05 10:33:06.536  INFO 7624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-05 10:33:06.536  INFO 7624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-05 10:33:06.652  INFO 7624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-05 10:33:06.652  INFO 7624 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1721 ms
+2021-04-05 10:33:06.733  WARN 7624 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-05 10:33:06.810  INFO 7624 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 10:33:06.983  INFO 7624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-05 10:33:06.990  INFO 7624 --- [main] a.w.s.SafetravelsV1Application           : Started SafetravelsV1Application in 2.361 seconds (JVM running for 2.987)
+2021-04-05 10:33:15.540  INFO 7624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-05 10:33:15.541  INFO 7624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-05 10:33:15.543  INFO 7624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-05 11:03:58.941  INFO 7624 --- [RMI TCP Connection(34)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-05 11:03:58.965  INFO 7624 --- [RMI TCP Connection(34)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-05 11:03:58.965  INFO 7624 --- [RMI TCP Connection(34)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'safetravels'
